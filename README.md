@@ -1,6 +1,8 @@
 # NEO Challenge solution
 # Technology stack: Python, JSON, Parquet,pyarrow, numpy,pandas,and matplotlib.
 
+Please refer NEO_solution_Design.pdf for design details.
+
 # Installation and run instructions:
 
 1. create a directory name neo in your system.
