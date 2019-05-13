@@ -1,5 +1,5 @@
 # NEO Challenge solution
-# Technology stack: Python, JSON, Parquet,pyarrow, numpy,pandas,matplotlib
+# Technology stack: Python, JSON, Parquet,pyarrow, numpy,pandas,and matplotlib
 
 Installation and run instructions:
 
