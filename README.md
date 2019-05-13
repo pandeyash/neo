@@ -1,7 +1,10 @@
 # NEO Challenge solution
 # Technology stack: Python, JSON, Parquet,pyarrow, numpy,pandas,and matplotlib.
 
-Please refer NEO_solution_Design.pdf for design details.
+Please refer followings:
+	1) NEO_solution_Design.pdf for design details.
+	2) Help.txt for error codes, descriptions, causes, and resolutions.
+	3) out_put folder for data visualization.
 
 # Installation and run instructions:
 
