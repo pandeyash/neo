@@ -1,0 +1,54 @@
+[
+	{
+	"Error_Code": -201,
+	"Description": "Error while calling the data pull API.",
+	"Cause":"URL or Key details is not correct" ,
+	"Resolution":"Please verify the URL and Key detail"
+	},
+	{
+	"Error_Code": -202,
+	"Description": "Error while writing extracted data.",
+	"Cause":"The neo/raw directory do not have write permission" ,
+	"Resolution":"Please verify the neo/raw directory write privilege."
+	},
+	{
+	"Error_Code": -101,
+	"Description": "Job type is not defined",
+	"Cause":"The NEO ETL driver program is called with wrong job type" ,
+	"Resolution":"Please use one of the valid job types - ETL (perform both data ingestion and transformation operation),
+				   LOAD (perform only data load operation, TRAN (perform only transformation operation)"
+	},
+	{
+	"Error_Code": -102,
+	"Description": "Error is opening the setup file.",
+	"Cause":"Setup file for the driver program is missing",
+	"Resolution":"Please check the setup file location: neo/setup/neo_setup.json"
+	},
+	{
+	"Error_Code": -301,
+	"Description": "An error occured while writing data frame into Parquet root path.",
+	"Cause":"Unable to write data at the given location",
+	"Resolution":" Please check transform data write location privilege."
+	},
+	
+	{"Error_Code": -302,
+	"Description": "Error while compressing the source file.",
+	"Cause":"Unable to compress raw data after to transformation.",
+	"Resolution":" Please check data archive location path defined in the setup file. Verify the write privilege on the archive folder",
+	},
+	{"Error_Code": -303,
+	"Description": "Error while removing the source file after archiving sccessfully.",
+	"Cause":"Unable to remove processed raw file after the transformation.",
+	"Resolution":"Please check delete privilege on the raw file folder."
+	},
+	{"Error_Code": -304,
+	"Description": "Error while archiving the processed file.",
+	"Cause":"Unable to archive archive file. Please write privilege on the archive folder and delete privilege on the raw file folder",
+	"Resolution":
+	},
+	{"Error_Code": -305,
+	"Description": "An error occured while reading the file.",
+	"Cause":"Unable to read raw file for the transformation.",
+	"Resolution":" Please check the raw json file location in the setup file and read privilege on the raw file folder."
+	}
+	]

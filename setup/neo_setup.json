@@ -1,0 +1,20 @@
+{
+   "neo_API" :{
+                "key":"C6zIbO1CxUBsA5oao1DSOqzVKgb8HIljYqpqCfTd",
+                "url":"https://api.nasa.gov/neo/rest/v1/feed"
+                },
+    "data_load":{
+                    "data_path":"../data/raw/neo",
+                    "run_log_name":"load_run_log.csv",
+                    "default_start_date":"2019-01-01"
+                },
+    "process":{
+                "run_log_path":"../job_log",
+                "job_status_log_path":"../log"
+                },
+    "data_tran":{
+        "fact_path":"../data/processed/fact/neo",
+        "archive_path":"../data/archived/neo"
+
+    }
+}
