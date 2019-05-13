@@ -1,0 +1,1 @@
+Total file count=4 loaded sucessfully. File details => ../data/raw/neo/2019-02-18.json,../data/raw/neo/2019-02-24.json,../data/raw/neo/2019-02-21.json,../data/raw/neo/2019-02-20.json
